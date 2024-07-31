@@ -1,5 +1,6 @@
-from dawg_python import CompletionDAWG
+from dawg import CompletionDAWG
 import csv
+import os
 
 def build_dawg_from_file(filename):
     """从文件中读取单词并构建DAWG"""
@@ -29,15 +30,17 @@ def save_counts_to_csv(word_counts, filename):
             writer.writerow([word, count])
 
 def main():
-    dictionary_path = r'C:\Users\86139\Desktop\现代汉语词典.txt'
-    text_path = r'C:\Users\86139\Desktop\内科.txt'
-    output_csv_path = r'C:\Users\86139\Desktop\word_counts.csv'
+    print("pwd:", os.getcwd())
+    dictionary_path = r'corpus/现代汉语词典.txt'
+    text_path = r'中文语料处理\内科.txt'
+    os.makedirs('output', exist_ok=True)
+    output_csv_path = r'output\word_counts.csv'
 
     # 构建DAWG
     dawg = build_dawg_from_file(dictionary_path)
 
     # 读取并处理文本
-    with open(text_path, 'r', encoding='GBK') as file:
+    with open(text_path, 'r', encoding='utf-8') as file:
         text = file.read()
 
     # 计数
