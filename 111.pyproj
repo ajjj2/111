@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8a5f08e7-3c81-435d-84f5-0b4c62d50608}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>中文语料处理\long words.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>CondaEnv|CondaEnv|vits39</InterpreterId>
+    <Name>111</Name>
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="corpus\现代汉语词典.txt" />
+    <Content Include="dawg-readthedocs-io-en-latest.pdf" />
+    <Content Include="tasks_requirements.html" />
+    <Content Include="中文语料处理\从词典中提取的词语总汇.csv" />
+    <Content Include="中文语料处理\任意长度词频统计.csv" />
+    <Content Include="中文语料处理\内科.txt" />
+    <Content Include="中文语料处理\字符对频度 %28除去常用词%29.csv" />
+    <Content Include="中文语料处理\字符对频度.csv" />
+    <Content Include="日语语料处理\日文字符对频度.csv" />
+    <Content Include="日语语料处理\日文语料.txt" />
+    <Content Include="研究课题：多语言新词发现与语义发现.doc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="中文语料处理\character_pair_frequency.py" />
+    <Compile Include="中文语料处理\long words.py" />
+    <Compile Include="中文语料处理\remove common words.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="corpus" />
+    <Folder Include="中文语料处理" />
+    <Folder Include="日语语料处理" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|vits37" />
+    <InterpreterReference Include="CondaEnv|CondaEnv|vits39" />
+    <InterpreterReference Include="Global|VisualStudio|workenv" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
