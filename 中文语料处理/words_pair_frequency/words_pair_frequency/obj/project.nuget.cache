@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "iAIKSKm1HlOloIHo2Czqbio5AY7WVZOlu8H5pwVpr56iyxBNed7vSLDE69rPQHCPZkTnp544E6y4gkI3MdTvIA==",
+  "success": true,
+  "projectFilePath": "D:\\新词与语义挖掘\\words_pair_frequency\\words_pair_frequency\\words_pair_frequency.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\86139\\.nuget\\packages\\jieba.net\\0.42.2\\jieba.net.0.42.2.nupkg.sha512",
+    "C:\\Users\\86139\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\86139\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\86139\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\86139\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
+    "C:\\Users\\86139\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\86139\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\86139\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.7.0\\system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
+    "C:\\Users\\86139\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
+    "C:\\Users\\86139\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\86139\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
